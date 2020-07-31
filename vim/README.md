@@ -12,7 +12,8 @@
   
 * 批量替换
   
-  * `69，80s#output#reg` 将69行到80行的output替换为reg
+  * `69,80s#output#reg` 将69行到80行的第一个output替换为reg
+  * 69,80s/output/reg/g 将69行到80行的全部（global）output替换为reg
   
 * 多行缩进
   
